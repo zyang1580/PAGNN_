@@ -259,7 +259,7 @@ def cross_val(args,writer,idx,f):
         print("")
     print("acc:",acc)
     try:
-        f.write("************************************** flod_id:{},best:{} *********".format(fold_idx,max_acc))
+        f.write("**************************************kkk flod_id:{},best:{} *********".format(fold_idx,max_acc))
         np.save("result/"+args.filename+"_"+str(fold_idx)+"_val_acc.npy",np.array(acc))
         print("************************************** flod_id:{},best:{} *********".format(fold_idx,max_acc))
     except:
